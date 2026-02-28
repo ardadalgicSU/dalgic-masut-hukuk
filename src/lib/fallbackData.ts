@@ -59,17 +59,17 @@ const fallbackStatistics: Statistic[] = [
   },
   {
     id: 3,
-    value: "2",
-    label: "Kurucu Avukat",
+    value: "%100",
+    label: "Müvekkil Odaklılık",
     description:
-      "İş, aile, ticaret ve ceza hukuku alanlarında hizmet veren kurucu ortaklar.",
+      "Her müvekkile özel, şeffaf ve dürüst hukuki danışmanlık anlayışıyla hareket ederiz.",
   },
   {
     id: 4,
-    value: "Eskişehir",
-    label: "Hizmet Merkezi",
+    value: "81 İl",
+    label: "Hizmet Kapsamı",
     description:
-      "Eskişehir merkezli olarak faaliyet gösteren büromuz, müvekkillerine şeffaf bilgilendirme sunar.",
+      "Eskişehir merkezli büromuz, uzaktan danışmanlık ve vekâlet ile tüm Türkiye genelinde müvekkillerine hizmet vermektedir.",
   },
 ];
 
