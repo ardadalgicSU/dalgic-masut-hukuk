@@ -5,9 +5,9 @@ import { HeroContent } from "@/lib/types";
 const DEFAULT_TAGLINE = "Eskişehir · Hukuk Bürosu";
 
 const defaultBullets = [
-  "Davalarınız için kişiye özel stratejiler geliştiriyoruz.",
-  "Şeffaf raporlama ile sürecin her aşamasında sizi bilgilendiriyoruz.",
-  "25 yılı aşkın deneyim ve kanıtlanmış başarı geçmişi.",
+  "Dosyanızın hukuki boyutlarını tarafsız biçimde değerlendiriyoruz.",
+  "Sürecin her aşamasında şeffaf bilgilendirme yapıyoruz.",
+  "1999'dan bu yana Eskişehir Barosu'na kayıtlı olarak faaliyet gösteriyoruz.",
 ];
 
 type HeroSectionProps = {
@@ -109,10 +109,10 @@ const HeroSection = ({ hero }: HeroSectionProps) => {
               ))}
             </ul>
 
-            {/* Uzman vurgusu */}
+            {/* Büro vurgusu */}
             <div className="mt-6 rounded-2xl border border-white/20 bg-white/10 p-4">
               <p className="text-sm text-white/70">
-                <strong className="font-semibold text-brand">Uzman ekibimiz</strong>, iş ve aile hukukunda derin tecrübe ile hareket eder ve her dosyada riskleri önceden analiz eder.
+                <strong className="font-semibold text-brand">Dalgıç-Masüt Hukuk Bürosu</strong>, iş, aile ve ticaret hukuku başta olmak üzere çeşitli hukuki alanlarda bireysel ve kurumsal müvekkillerine danışmanlık hizmeti vermektedir.
               </p>
             </div>
 
@@ -120,15 +120,15 @@ const HeroSection = ({ hero }: HeroSectionProps) => {
             <div className="absolute -bottom-px left-10 right-10 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
           </div>
 
-          {/* Küçük istatistik kartları */}
+          {/* Küçük bilgi kartları */}
           <div className="mt-4 grid grid-cols-2 gap-4">
             <div className="rounded-2xl border border-white/15 bg-black/40 p-4 backdrop-blur-sm text-center">
-              <p className="font-heading text-2xl text-white">25+</p>
-              <p className="text-xs text-white/50">Yıl Deneyim</p>
+              <p className="font-heading text-2xl text-white">1999</p>
+              <p className="text-xs text-white/50">Kuruluş Yılı</p>
             </div>
             <div className="rounded-2xl border border-white/15 bg-black/40 p-4 backdrop-blur-sm text-center">
-              <p className="font-heading text-2xl text-white">2000+</p>
-              <p className="text-xs text-white/50">Başarılı Dava</p>
+              <p className="font-heading text-2xl text-white">12</p>
+              <p className="text-xs text-white/50">Hizmet Alanı</p>
             </div>
           </div>
         </div>

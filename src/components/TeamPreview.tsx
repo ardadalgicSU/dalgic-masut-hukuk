@@ -33,7 +33,7 @@ const TeamPreview = ({ team }: TeamPreviewProps) => {
           <div>
             <div className="inline-flex items-center gap-3 mb-4">
               <span className="text-xs font-semibold uppercase tracking-[0.3em] text-brand">
-                Uzman Ekibimiz
+                Avukatlarımız
               </span>
             </div>
             <h2 className="font-heading text-3xl leading-tight text-gray-900 md:text-4xl lg:text-5xl">
@@ -41,8 +41,7 @@ const TeamPreview = ({ team }: TeamPreviewProps) => {
               <br />tanışın
             </h2>
             <p className="mt-4 max-w-2xl text-sm text-gray-500 leading-relaxed">
-              Her dava bir ekip işidir. Yetkin avukatlarımız ve danışmanlarımızla
-              süreci birlikte yönetiyoruz.
+              {"Büromuz avukatları; Eskişehir Barosu'na kayıtlı olarak çeşitli hukuki alanlarda müvekkillerine danışmanlık ve temsil hizmeti sunmaktadır."}
             </p>
           </div>
           <Link

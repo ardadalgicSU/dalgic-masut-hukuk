@@ -27,7 +27,7 @@ const fallbackFirm: FirmInfo = {
   name: "Dalgıç-Masüt Hukuk Bürosu",
   tagline: "Güvenilir Çözüm Ortağınız",
   description:
-    "25 yılı aşkın tecrübe ile iş, aile, ticaret ve sigorta hukukunda uçtan uca danışmanlık sunuyoruz.",
+    "1999'dan bu yana Eskişehir'de iş, aile, ticaret ve sigorta hukuku alanlarında hukuki danışmanlık hizmeti sunuyoruz.",
   foundingYear: 1999,
 };
 
@@ -35,41 +35,41 @@ const fallbackHero: HeroContent = {
   heading: "Her adımda şeffaf, her aşamada güçlü temsil.",
   subheading:
     "Eskişehir merkezli Dalgıç-Masüt Hukuk Bürosu, şirketlere ve bireylere uçtan uca hukuki danışmanlık sunar.",
-  primaryCtaLabel: "Ücretsiz Danışma Alın",
+  primaryCtaLabel: "Bize Danışın",
   primaryCtaUrl: "/iletisim",
   secondaryCtaLabel: "Hizmetlerimizi İnceleyin",
   secondaryCtaUrl: "/hizmetler",
-  highlights: ["25+ yıllık deneyim", "12 uzmanlık alanı", "2000+ sonuçlanan dava"],
+  highlights: ["1999'dan bu yana Eskişehir'de", "12 hukuki hizmet alanı", "İş, aile ve ticaret hukuku"],
 };
 
 const fallbackStatistics: Statistic[] = [
   {
     id: 1,
-    value: "25+",
-    label: "Yıllık Tecrübe",
+    value: "1999",
+    label: "Kuruluş Yılı",
     description:
-      "Kurucu ortaklarımız Eskişehir ve çevresinde yüzlerce dava yönetti.",
+      "Dalgıç-Masüt Hukuk Bürosu, 1999 yılında Eskişehir'de kurulmuştur.",
   },
   {
     id: 2,
-    value: "2000+",
-    label: "Başarıyla Sonuçlanan Dava",
+    value: "12",
+    label: "Hukuki Hizmet Alanı",
     description:
-      "İş, aile ve ticaret hukukunda müvekkillerimizin haklarını titizlikle savunduk.",
+      "Şirket danışmanlığından bireysel uyuşmazlıklara kadar geniş hizmet kapsamı.",
   },
   {
     id: 3,
-    value: "12",
-    label: "Uzmanlık Alanı",
+    value: "2",
+    label: "Kurucu Avukat",
     description:
-      "Şirket danışmanlığından bireysel uyuşmazlıklara kadar geniş hizmet skalası.",
+      "İş, aile, ticaret ve ceza hukuku alanlarında hizmet veren kurucu ortaklar.",
   },
   {
     id: 4,
-    value: "%98",
-    label: "Müvekkil Memnuniyeti",
+    value: "Eskişehir",
+    label: "Hizmet Merkezi",
     description:
-      "Sürece dahil ettiğimiz müvekkillerimizle şeffaf raporlama paylaşıyoruz.",
+      "Eskişehir merkezli olarak faaliyet gösteren büromuz, müvekkillerine şeffaf bilgilendirme sunar.",
   },
 ];
 
@@ -88,11 +88,11 @@ export const fallbackSiteSettings: SiteSettings = {
   },
   navigation: fallbackNavigation,
   footerDescription:
-    "25 yılı aşkın tecrübemizle Eskişehir ve çevresinde şirketlere ve bireylere stratejik hukuki danışmanlık sunuyoruz.",
+    "1999'dan bu yana Eskişehir'de şirketlere ve bireylere iş, aile, ticaret ve sigorta hukuku alanlarında hukuki danışmanlık hizmeti sunuyoruz.",
   seo: {
     title: "Dalgıç-Masüt Hukuk Bürosu | Eskişehir Avukat",
     description:
-      "İş, aile, ticaret ve sigorta hukukunda uzman kadromuzla uçtan uca hukuki danışmanlık sunuyoruz.",
+      "1999'dan bu yana Eskişehir'de iş, aile, ticaret ve sigorta hukuku alanlarında hukuki danışmanlık hizmeti.",
     keywords:
       "eskişehir avukat, hukuk bürosu, iş hukuku, aile hukuku, trafik kazası avukatı, dalgıç masüt",
   },
@@ -160,8 +160,8 @@ export const fallbackTeam: TeamMember[] = [
     name: "Av. Atilay Dalgıç",
     title: "Kurucu Ortak",
     bio: paragraphsToHtml([
-      "Dalgıç-Masüt Hukuk Bürosu'nun kurucu ortağı olan Av. Atilay Dalgıç, 25 yılı aşkın tecrübesi ile iş ve ticaret hukukunda uzmanlaşmıştır.",
-      "Şirket birleşmeleri, iş hukuku denetimleri ve karmaşık ticari davalarda müvekkillerine stratejik danışmanlık sunar.",
+      "Dalgıç-Masüt Hukuk Bürosu'nun kurucu ortağı olan Av. Atilay Dalgıç, Ankara Üniversitesi Hukuk Fakültesi mezunudur. 1999 yılından bu yana Eskişehir Barosu'na kayıtlı olarak iş ve ticaret hukuku alanlarında faaliyet göstermektedir.",
+      "Şirket birleşmeleri, iş hukuku denetimleri ve ticari uyuşmazlıklar başta olmak üzere çeşitli hukuki konularda müvekkillerine danışmanlık hizmeti vermektedir.",
     ]),
     expertise: [
       "İş hukuku denetimleri",
@@ -181,7 +181,7 @@ export const fallbackTeam: TeamMember[] = [
     name: "Av. Duru Masüt",
     title: "Kurucu Ortak",
     bio: paragraphsToHtml([
-      "Ceza hukuku ve aile hukuku alanlarında uzmanlaşan Av. Duru Masüt, kriz yönetimi gerektiren dosyalarda hassasiyet ve hızla hareket eder.",
+      "Dalgıç-Masüt Hukuk Bürosu'nun kurucu ortağı olan Av. Duru Masüt, İstanbul Üniversitesi Hukuk Fakültesi mezunudur. Eskişehir Barosu'na kayıtlı olarak ceza hukuku ve aile hukuku alanlarında müvekkillerine hukuki danışmanlık hizmeti vermektedir.",
     ]),
     expertise: [
       "Ceza yargılaması",
@@ -227,30 +227,14 @@ export const fallbackPublications: Publication[] = [
   },
 ];
 
-export const fallbackTestimonials: Testimonial[] = [
-  {
-    id: 1,
-    quote:
-      "Dalgıç-Masüt ekibi, şirket birleşmesi sürecimizde riskleri önceden analiz ederek bizim için kritik bir yol haritası çıkardı.",
-    author: "Murat Aksoy",
-    role: "Genel Müdür",
-    company: "Aksoy Makina",
-  },
-  {
-    id: 2,
-    quote:
-      "Boşanma sürecimde hem hukuki hem de duygusal olarak destek gördüm. Profesyonel yaklaşımları sayesinde müthiş bir sonuç aldık.",
-    author: "Seçil Yılmaz",
-    role: "Müvekkil",
-  },
-];
+export const fallbackTestimonials: Testimonial[] = [];
 
 export const fallbackFaqs: FAQ[] = [
   {
     id: 1,
-    question: "İlk danışmanlık görüşmesi ücretli mi?",
+    question: "Randevu nasıl alabilirim?",
     answer:
-      "<p>İlk değerlendirme görüşmesi ücretsizdir. Dosyanızın kapsamına göre detaylı çalışma planı ve ücretlendirme paylaşırız.</p>",
+      "<p>İletişim formumuzdan veya telefon numaramızdan randevu talebinde bulunabilirsiniz. Ücretlendirme bilgisi görüşme sırasında tarafınızla paylaşılır.</p>",
   },
   {
     id: 2,

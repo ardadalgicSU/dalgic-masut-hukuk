@@ -34,7 +34,7 @@ const ServicesPreview = ({ services }: ServicesPreviewProps) => {
           <div>
             <div className="inline-flex items-center gap-3 mb-4">
               <span className="text-xs font-semibold uppercase tracking-[0.3em] text-brand">
-                Uzmanlık Alanlarımız
+                Hukuki Hizmet Alanlarımız
               </span>
             </div>
             <h2 className="font-heading text-3xl leading-tight text-gray-900 md:text-4xl lg:text-5xl">
@@ -43,8 +43,7 @@ const ServicesPreview = ({ services }: ServicesPreviewProps) => {
               <span className="text-brand">kadar yanınızdayız</span>
             </h2>
             <p className="mt-4 max-w-2xl text-sm text-gray-500 leading-relaxed">
-              Her hukuk alanı için uzman avukatlarımızla detaylı analiz yapıyor,
-              dava dosyalarınızı uçtan uca yönetiyoruz.
+              Büromuz; iş, aile, ticaret ve ceza hukuku başta olmak üzere çeşitli hukuki konularda bireysel ve kurumsal müvekkillerine danışmanlık hizmeti sunmaktadır.
             </p>
           </div>
           <Link

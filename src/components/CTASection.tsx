@@ -76,10 +76,10 @@ const CTASection = () => (
       {/* Alt bilgi şeridi */}
       <div className="mt-16 flex flex-wrap items-center justify-center gap-8 border-t border-white/5 pt-10">
         {[
-          { value: "Ücretsiz", label: "İlk Görüşme" },
           { value: "Gizli", label: "Müvekkil Bilgileri" },
-          { value: "Hızlı", label: "Değerlendirme" },
-          { value: "Uzman", label: "Hukuki Danışmanlık" },
+          { value: "Şeffaf", label: "Bilgilendirme" },
+          { value: "Eskişehir", label: "Barosu Kayıtlı" },
+          { value: "Yazılı", label: "Vekâletname ile" },
         ].map((item) => (
           <div key={item.label} className="flex items-center gap-3 text-sm">
             <div className="h-1.5 w-1.5 rounded-full bg-brand" />
